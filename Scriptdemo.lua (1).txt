@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Sex ",
-         Animation = "Sdzz huh"
+         Title = "Sex vn ",
+         Animation = "YouTube:Zer Huh"
          },
         Key = {
         KeySystem = false,
@@ -34,8 +34,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      
     local Tab2o = MakeTab({Name = "Script Hop Sever "}) 
     
-    local Tab3o = MakeTab({Name = "Script lỗi
-    "}) 
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -112,13 +110,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "Script cleaner",
     Callback = function()
 	  loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/bba12223e60c6256"))()
-  end
-  })
-  
-  AddButton(Tab3o, {
-     Name = "Script banana priem",
-    Callback = function()
-	  https://raw.githubusercontent.com/ZusumeHub/ZusumeHub/refs/heads/main/UpdateZysumee
   end
   })
   
