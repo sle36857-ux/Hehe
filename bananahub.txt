@@ -1,6 +1,6 @@
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
-    Title = "Watermelon Hub-Blox Fruit [ Premium ]",-- thay tên bạn muốn đặt
+    Title = "Banana Cat Hub-Blox Fruit [ Premium ]",-- thay tên bạn muốn đặt
     SubTitle = "By Obii",-- tên bạn
     TabWidth = 160,
     Theme = "Dark",--màu
@@ -10,13 +10,13 @@ local v15 = v14:CreateWindow({
 });
 local v16 = {
     Home = v15:AddTab({
-        Title = "Tab Thông Tin"
+        Title = "Tab Information"
     }),
     Main = v15:AddTab({
-        Title = "Tab Farm"
+        Title = "Tab Farming"
     }),
     Sea = v15:AddTab({
-        Title = "Tab Cày Đảo Rồng và sea"
+        Title = "Tab Volcano And Sea Event"
     }),
     ITM = v15:AddTab({
         Title = "Tab Farming Other"
@@ -25,34 +25,34 @@ local v16 = {
         Title = "Setting Farm"
     }),
     Status = v15:AddTab({
-        Title = "Tab Hợp Sever"
+        Title = "Tab Status And Server"
     }),
     Stats = v15:AddTab({
-        Title = "Tab Nâng điểm"
+        Title = "Tab Stats"
     }),
     Player = v15:AddTab({
-        Title = "Tab Người Chơi"
+        Title = "Tab Local Player"
     }),
     Teleport = v15:AddTab({
-        Title = "Tab Dịch Chuyển"
+        Title = "Tab Teleport"
     }),
     Visual = v15:AddTab({
-        Title = "Tab Làm Giả"
+        Title = "Tab Visual"
     }),
     Fruit = v15:AddTab({
-        Tite = "Tab Định vị Fruit"
+        Title = "Tab Esp And Fruit"
     }),
     Raid = v15:AddTab({
         Title = "Tab Raid"
     }),
     Race = v15:AddTab({
-        Title = "Tab Nâng Tộc"
+        Title = "Tab Upgrade Race"
     }),
     Shop = v15:AddTab({
-        Title = "Tab Cửa Hàng"
+        Title = "Tab Shop"
     }),
     Misc = v15:AddTab({
-        Title = "Tab Khác"
+        Title = "Tab Misc"
     })
 };
 local v17 = v14.Options;
@@ -2323,7 +2323,7 @@ v23.BorderSizePixel = 0;
 v23.Position = UDim2.new(0.120833337 - 0.1, 0, 0.0952890813 + 0.01, 0);
 v23.Size = UDim2.new(0, 50, 0, 50);
 v23.Draggable = true;
-v23.Image = "http://www.roblox.com/asset/?id=125592883323798";
+v23.Image = "http://www.roblox.com/asset/?id=130947856929902";
 
 v24.Parent = v23;
 v24.CornerRadius = UDim.new(1, 0);
@@ -2467,7 +2467,7 @@ task.spawn(function()
     end
 end);
 local v49 = v16.Main:AddToggle("ToggleLevel", {
-    Title = "Auto Cày cấp,
+    Title = "Auto Farm Level",
     Description = "",
     Default = false
 });
@@ -4390,7 +4390,7 @@ if Sea3 then
         end
         for v728, v729 in pairs(game:GetService("Workspace").Map.MysticIsland:GetDescendants()) do
             if v729:IsA("MeshPart") then
-                if (v729.MeshId == "rbxassetid://83190276951914") then -Thay id ảnh vào
+                if (v729.MeshId == "rbxassetid://83190276951914") then --thay id ảnh vào
                     return v729;
                 end
             end
