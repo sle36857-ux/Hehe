@@ -25,10 +25,10 @@ local v16 = {
         Title = "Setting Farm"
     }),
     Status = v15:AddTab({
-        Title = "Tab Nâng Điểm And Hợp Sever"
+        Title = "Tab Hợp Sever"
     }),
     Stats = v15:AddTab({
-        Title = "Tab Stats"
+        Title = "Tab Nâng điểm"
     }),
     Player = v15:AddTab({
         Title = "Tab Người Chơi"
@@ -37,10 +37,10 @@ local v16 = {
         Title = "Tab Dịch Chuyển"
     }),
     Visual = v15:AddTab({
-        Title = "Tab Visual"
+        Title = "Tab Làm Giả"
     }),
     Fruit = v15:AddTab({
-        Title = "Tab Định vị Fruit"
+        Tite = "Tab Định vị Fruit"
     }),
     Raid = v15:AddTab({
         Title = "Tab Raid"
@@ -2323,7 +2323,7 @@ v23.BorderSizePixel = 0;
 v23.Position = UDim2.new(0.120833337 - 0.1, 0, 0.0952890813 + 0.01, 0);
 v23.Size = UDim2.new(0, 50, 0, 50);
 v23.Draggable = true;
-v23.Image = "http://www.roblox.com/asset/?id=130947856929902";
+v23.Image = "http://www.roblox.com/asset/?id=125592883323798";
 
 v24.Parent = v23;
 v24.CornerRadius = UDim.new(1, 0);
@@ -2467,7 +2467,7 @@ task.spawn(function()
     end
 end);
 local v49 = v16.Main:AddToggle("ToggleLevel", {
-    Title = "Auto Farm Level",
+    Title = "Auto Cày cấp,
     Description = "",
     Default = false
 });
@@ -4390,7 +4390,7 @@ if Sea3 then
         end
         for v728, v729 in pairs(game:GetService("Workspace").Map.MysticIsland:GetDescendants()) do
             if v729:IsA("MeshPart") then
-                if (v729.MeshId == "rbxassetid://83190276951914") then --thay id ảnh vào
+                if (v729.MeshId == "rbxassetid://83190276951914") then -Thay id ảnh vào
                     return v729;
                 end
             end
