@@ -1,9 +1,9 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/Rubu-obfuscated%202.lua"))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Solow script",
-         Animation = "YouTube:now "
+         Title = "Banana huh",
+         Animation = "Bản Thử Nghiệm"
          },
         Key = {
         KeySystem = false,
@@ -31,11 +31,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/he
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
-     local Tab2o = MakeTab({Name = "Script Hop Sever"})
+     
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub",
+     Name = "Banana huh",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
