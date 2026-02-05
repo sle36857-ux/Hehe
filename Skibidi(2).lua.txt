@@ -49,7 +49,7 @@ local Tabs = {
 
     Tabs.Main0:AddButton({
     Title = "Youtuber",
-    Description = "Cương le",
+    Description = "Cuong le",
     Callback = function()
         setclipboard("https://youtube.com/@cuongle-rc3hh?si=34Zj2P3GwLXudeEX")
     end
