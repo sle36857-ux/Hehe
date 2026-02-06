@@ -26,7 +26,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
-       StrokeColor = Color3.fromRGB(200, 0, 0)
+       StrokeColor = Color3.fromRGB(150, 0, 0)
       })
       
 ------ Tab
@@ -39,5 +39,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "Auto Farm",
     Callback = function()
 	  loadstring(game:HttpGet('https://raw.githubusercontent.com/asher-realrise/project/refs/heads/main/loadder.lua'))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Auto Farm",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh129150/hack/refs/heads/main/HopBoss.lua"))()
   end
   })
