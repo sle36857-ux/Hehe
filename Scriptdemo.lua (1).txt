@@ -2,15 +2,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Sex vn ",
-         Animation = "Google:Sex vn"
+         Title = "Meww huh",
+         Animation = "Script: Tổng Hợp"
          },
         Key = {
         KeySystem = false,
         Title = "Key System",
-        Description = "",
+        Description = "antiban",
         KeyLink = "",
-        Keys = {"1234"},
+        Keys = {"2345"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -21,8 +21,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=79941886220544",
-       Size = {60, 60},
+       Image = "http://www.roblox.com/asset/?id=125592883323798",
+       Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -32,85 +32,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
      
-    local Tab2o = MakeTab({Name = "Script Hop Sever "}) 
-    
 ------- BUTTON
     
     AddButton(Tab1o, {
      Name = "Redz Hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/asher-realrise/project/refs/heads/main/loadder.lua'))()
   end
   })
-  
-  AddButton(Tab1o, {
-     Name = "Quan huh",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
-  end
-  })
-  
-  AddButton(Tab1o, {
-     Name = "Na xih",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NaNacuti/nanabeo/refs/heads/main/NaNaTVHub.lua"))()
-  end
-  })
-  
-  AddButton(Tab2o, {
-     Name = "Hop Sever",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/HopScript.luau"))()
-  end
-  })
-  
-  AddButton(Tab1o, {
-     Name = "banana huh",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kaitofixlag-hub/Scriptkaito/refs/heads/main/bananahubkaito.txt"))()
-  end
-  })
-  
-  AddButton(Tab1o, {
-     Name = "Gravity huh",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
-  end
-  })
-  
-  AddButton(Tab1o, {
-     Name = "Blue huh",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
-  end
-  })
-  
-  AddButton(Tab1o, {
-     Name = "Trau roblox",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/trauhubv7.lua"))()
-  end
-  })
-  
-  AddButton(Tab1o, {
-     Name = "Maru Fake",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/sofziol1fe/Script/refs/heads/main/main.luau"))()
-  end
-  })
-  
-  AddButton(Tab2o, {
-     Name = "Sever vip",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/anuragaming1/Meow_gaming/refs/heads/main/Servervip.lua.txt"))()
-  end
-  })
-  
-  AddButton(Tab2o, {
-     Name = "Script cleaner",
-    Callback = function()
-	  loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/bba12223e60c6256"))()
-  end
-  })
-  
-  
