@@ -9,7 +9,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "Meoww huh",
         Description = "Vui Lòng Nhập Key",
-        KeyLink = "sex ko che",
+        KeyLink = "F0-033767-2219",
         Keys = {"F0-033767-2219"},
         Notifi = {
         Notifications = true,
