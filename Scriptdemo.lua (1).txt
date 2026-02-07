@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Farm 🔥"})
-     local Tab2o = MakeTab({Name = "Sever 🔥"})
+     local Tab2o = MakeTab({Name = "Synthetic 🔥"})
      local Tab3o = MakeTab({Name = "Boutty 🔥"})
      
 ------- BUTTON
@@ -46,12 +46,19 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   AddButton(Tab1o, {
      Name = "QuanTum huh",
     Callback = function()
-	  loadstring(game:HttpGet('https://raw.githubusercontent.com/asher-realrise/project/refs/heads/main/loadder.lua'))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
   end
   })
   
   AddButton(Tab2o, {
      Name = "Hop Sever",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh129150/hack/refs/heads/main/HopBoss.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Fly huh",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh129150/hack/refs/heads/main/HopBoss.lua"))()
   end
