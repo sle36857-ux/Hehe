@@ -57,6 +57,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
   })
   
+  AddButton(Tab2o, {
+     Name = "Fix Lag",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })
+  
   AddButton(Tab3o, {
      Name = "Boutty Hunter",
     Callback = function()
