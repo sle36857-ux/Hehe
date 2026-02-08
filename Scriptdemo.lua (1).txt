@@ -33,6 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Farm 🔥"})
      local Tab2o = MakeTab({Name = "Synthetic 🔥"})
      local Tab3o = MakeTab({Name = "Boutty 🔥"})
+     local Tab4o = MakeTab({Name = "Dance 🔥"})
      
 ------- BUTTON
     
@@ -82,5 +83,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "Boutty Hunter",
     Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/hermanos-dev/hermanos-hub/refs/heads/main/Loader.lua"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Act Trend",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7yd7/Hub/refs/heads/Branch/GUIS/Emotes.lua"))()
   end
   })
