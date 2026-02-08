@@ -3,18 +3,18 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Meow huh",
-         Animation = "Đang Tải...."
+         Animation = "Đang Chạy......"
          },
         Key = {
         KeySystem = true,
         Title = "Meoww huh",
         Description = "Vui Lòng Nhập Key",
-        KeyLink = "F0-033767-2219",
-        Keys = {"F0-033767-2219"},
+        KeyLink = "F0-09777-31-092-Free",
+        Keys = {"F0-09777-31-092-Free"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Đang Chạy Script",
-       Incorrectkey = "Chìa Khoá Của Bạn Sai",
+       Incorrectkey = "Chìa Khoá Của Bạn Đã Sai",
        CopyKeyLink = "Chìa Khoá Của Bạn Đã Sẵn Sàng"
       }
     }
