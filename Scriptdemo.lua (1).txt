@@ -86,6 +86,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
   })
   
+  AddButton(Tab3o, {
+     Name = "TheyTrick Hunter",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox.xyz", true))()
+  end
+  })
+  
   AddButton(Tab4o, {
      Name = "Act Trend",
     Callback = function()
