@@ -38,16 +38,23 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Auto Farm",
+     Name = "Fast hub",
     Callback = function()
 	  loadstring(game:HttpGet('https://raw.githubusercontent.com/asher-realrise/project/refs/heads/main/loadder.lua'))()
   end
   })
   
   AddButton(Tab1o, {
-     Name = "QuanTum huh",
+     Name = "QuanTum hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Trauu hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/traurobloxv8.lua"))()
   end
   })
   
@@ -59,7 +66,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
   
   AddButton(Tab2o, {
-     Name = "Fly huh",
+     Name = "Fly hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
   end
@@ -87,7 +94,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
   
   AddButton(Tab3o, {
-     Name = "TheyTrick Hunter",
+     Name = "Junbot Hunter",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox.xyz", true))()
   end
