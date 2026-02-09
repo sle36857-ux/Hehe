@@ -53,9 +53,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
   
   AddButton(Tab1o, {
-     Name = "Trauu hub",
+     Name = "Xero hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/traurobloxv8.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
   end
   })
   
