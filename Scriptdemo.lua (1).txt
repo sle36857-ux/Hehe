@@ -9,7 +9,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "Meoww huh",
         Description = "Vui Lòng Nhập Key",
-        KeyLink = "Đầu Tư Vào HDPE Là Ngon Luôn",
+        KeyLink = "F0-09777-31-092-Free",
         Keys = {"F0-09777-31-092-Free"},
         Notifi = {
         Notifications = true,
@@ -34,6 +34,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "Synthetic 🔥"})
      local Tab3o = MakeTab({Name = "Boutty 🔥"})
      local Tab4o = MakeTab({Name = "Dance 🔥"})
+     local Tab5o = MakeTab({Name = "Fruit 🔥"})
      
 ------- BUTTON
     
@@ -104,5 +105,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-
      Name = "Act Trend",
     Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/7yd7/Hub/refs/heads/Branch/GUIS/Emotes.lua"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "Lucky Fruit",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ytzeno99/bufflucky/refs/heads/main/LucKyRadomFruit.lua"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "Dim Fruit",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidDeveloper67/VoidHub/refs/heads/main/FruitFarmer"))()
   end
   })
