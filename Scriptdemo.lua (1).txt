@@ -53,9 +53,16 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
   
   AddButton(Tab1o, {
-     Name = "Xero hub",
+     Name = "Banana hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/BananaCatHub/refs/heads/main/BananaCatHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Xyz hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/DrTxZ/Mercure-Hub/refs/heads/main/Mercure%20Hub.lua"))()
   end
   })
   
