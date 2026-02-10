@@ -102,17 +102,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
   
   AddButton(Tab3o, {
-     Name = "PvP x Hunter",
-    Callback = function()
-	repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Team = "Pirates" --// Marines
-getgenv().Mode = "Auto Bounty"
-getgenv().On_Ui = true
-getgenv().Config = {...
-  end
-  })
-  
-  AddButton(Tab3o, {
      Name = "Junbot Hunter",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox.xyz", true))()
