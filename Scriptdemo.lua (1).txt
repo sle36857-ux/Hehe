@@ -38,8 +38,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      
 ------- BUTTON
     
-    AddButton(Tab1o, {
-     Name = "Fast hub",
+  AddButton(Tab1o, {
+     Name = "Rise hub",
     Callback = function()
 	  loadstring(game:HttpGet('https://raw.githubusercontent.com/asher-realrise/project/refs/heads/main/loadder.lua'))()
   end
@@ -53,16 +53,16 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
   
   AddButton(Tab1o, {
-     Name = "Banana hub",
+     Name = "Khoa hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenAnhKhoaVN/Real_AnhKhoa_2279/refs/heads/main/Main-BloxFruitsNX.lua"))()
   end
   })
   
   AddButton(Tab1o, {
-     Name = "Rise hub",
+     Name = "Garavity hub",
     Callback = function()
-	  if not game:IsLoaded() then game.Loaded:Wait() end loadstring(game:HttpGet("https://rise-evo.xyz/apiv3/main.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
   end
   })
   
