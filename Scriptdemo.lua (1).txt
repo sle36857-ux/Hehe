@@ -80,7 +80,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
   })
   
-    AddButton(Tab2o, {
+  AddButton(Tab2o, {
      Name = "Sever Vip",
     Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/anuragaming1/Meow_gaming/refs/heads/main/Servervip.lua.txt"))()
