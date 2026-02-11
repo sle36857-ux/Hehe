@@ -3666,7 +3666,7 @@ function CheckItemBPCRBPCR(v463)
 end
 local v466 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NejiDepzai/UIRedzhub/refs/heads/main/UIRedz.lua"))():MakeWindow({
     Title = "Meoww hub",
-    SubTitle = "by Meoww",
+    SubTitle = "Blox Fruit-Premium",
     SaveFolder = "BloxFruits.lua"
 })
 local l_ScreenGui_0 = Instance.new("ScreenGui")
@@ -3755,10 +3755,10 @@ local v494 = v466:MakeTab({"PvP,Player", "user"})
 local v495 = v466:MakeTab({"Shop", "shoppingCart"})
 local v496 = v466:MakeTab({"Settings", "settings"})
 v484:AddDiscordInvite({
-    Name = "TikTok - NEJI",
+    Name = "TikTok - Sang le Roblox",
     Description = "Link TikTok",
-    Logo = "rbxassetid://123060196429580",
-    Invite = "@tiktokacckhoe1"
+    Logo = "rbxassetid://108311955352807",
+    Invite = "@nhat_o3"
 })
 local _ = v485:AddSection({"Select Melee,Sword,Gun,Fruit"})
 _G.SelectWeapon = "Melee"
