@@ -3675,7 +3675,7 @@ l_ScreenGui_0.Parent = game.CoreGui
 local l_ImageButton_0 = Instance.new("ImageButton")
 l_ImageButton_0.Size = UDim2.new(0, 50, 0, 50)
 l_ImageButton_0.Position = UDim2.new(0.15, 0, 0.15, 0)
-l_ImageButton_0.Image = "rbxassetid://123060196429580"
+l_ImageButton_0.Image = "rbxassetid://117130297183348"
 l_ImageButton_0.BackgroundTransparency = 1
 l_ImageButton_0.Parent = l_ScreenGui_0
 local l_UICorner_0 = Instance.new("UICorner")
@@ -3757,7 +3757,7 @@ local v496 = v466:MakeTab({"Settings", "settings"})
 v484:AddDiscordInvite({
     Name = "TikTok - Sang le Roblox",
     Description = "Link TikTok",
-    Logo = "rbxassetid://108311955352807",
+    Logo = "rbxassetid://117130297183348",
     Invite = "@nhat_o3"
 })
 local _ = v485:AddSection({"Select Melee,Sword,Gun,Fruit"})
