@@ -125,7 +125,7 @@ function CheckQuest()
                                     CFrameMon = CFrame.new(1201.6412353515625, 144.57958984375, -1550.0670166015625)
                                 elseif (MyLevel < 120 or MyLevel > 149) and SelectMonster ~= "Chief Petty Officer" then
                                     if (MyLevel < 150 or MyLevel > 174) and SelectMonster ~= "Sky Bandit" then
-                                        if (MyLevel < 175 or MyLevel > 189) and SelectMonster ~= "Dark Master" then
+                                        if (MyLevel < 175 or MyLevel > 189) and SelectMonster ~= "_ Master" then
                                             if MyLevel >= 190 and MyLevel <= 209 or SelectMonster == "Prisoner" then
                                                 Mon = "Prisoner"
                                                 LevelQuest = 1
@@ -3745,20 +3745,24 @@ local v484 = v466:MakeTab({"Th\195\180ng Tin | Info", "info"})
 local v485 = v466:MakeTab({"Farming", "home"})
 local v486 = v466:MakeTab({"Auto Fishing", "rbxassetid://127664059821666"})
 local v487 = v466:MakeTab({"Quest | Items", "swords"})
-local v488 = v466:MakeTab({"Volcano Dojo", "cake"})
-local v489 = v466:MakeTab({"Sea Event", "waves"})
-local v490 = v466:MakeTab({"Race V4", "crown"})
-local v491 = v466:MakeTab({"Raid Fruits", "cherry"})
-local v492 = v466:MakeTab({"Fruits | Check Stock", "apple"})
-local v493 = v466:MakeTab({"Teleport", "locate"})
-local v494 = v466:MakeTab({"PvP,Player", "user"})
-local v495 = v466:MakeTab({"Shop", "shoppingCart"})
-local v496 = v466:MakeTab({"Settings", "settings"})
+local v488 = v466:MakeTab({"Nhiệm Vụ Dragon Dojo", "cake"})
+local v489 = v466:MakeTab({"Sự Kiện Biển", "waves"})
+local v490 = v466:MakeTab({"Tộc V4", "crown"})
+local v491 = v466:MakeTab({"Riad Trái", "cherry"})
+local v492 = v466:MakeTab({"Trái | Xem Bán", "apple"})
+local v493 = v466:MakeTab({"Dịch Chuyển", "locate"})
+local v494 = v466:MakeTab({"PvP,Người Chơi", "user"})
+local v495 = v466:MakeTab({"Cửa Hàng", "shoppingCart"})
+local v496 = v466:MakeTab({"Khác", "settings"})
 v484:AddDiscordInvite({
     Name = "TikTok - Sang le Roblox",
     Description = "Link TikTok",
     Logo = "rbxassetid://117130297183348",
     Invite = "@nhat_o3"
+    Name = "Face - Sang le",
+    Description = "Link Facebook",
+    Logo = "rbxassetid://117130297183348",
+    Invite = "@Sang le"
 })
 local _ = v485:AddSection({"Select Melee,Sword,Gun,Fruit"})
 _G.SelectWeapon = "Melee"
