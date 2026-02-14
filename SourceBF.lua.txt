@@ -3759,10 +3759,7 @@ v484:AddDiscordInvite({
     Description = "Link TikTok",
     Logo = "rbxassetid://117130297183348",
     Invite = "@nhat_o3"
-    Name = "Face - Sang le",
-    Description = "Link Facebook",
-    Logo = "rbxassetid://117130297183348",
-    Invite = "@Sang le"
+    
 })
 local _ = v485:AddSection({"Select Melee,Sword,Gun,Fruit"})
 _G.SelectWeapon = "Melee"
