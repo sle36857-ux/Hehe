@@ -46,6 +46,123 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
   
   AddButton(Tab1o, {
+     Name = "Trau hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  local _ = v485:AddSection({"Main Farm"})
+v485:AddToggle({
+    Name = "Auto Farm Level 1-2650",
+    Description = "T\225\187\177 \196\145\225\187\153ng farm c\225\186\165p",
+    Default = false,
+    Callback = function(v509)
+        _G.AutoFarm = v509
+        StopTween(_G.AutoFarm)
+    end
+})
+spawn(function()
+    while task.wait() do
+        if _G.AutoFarm then
+            pcall(function()
+                local l_Text_0 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text
+                CheckQuest()
+                if not string.find(l_Text_0, NameMon) then
+                    StartBring = false
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AbandonQuest")
+                end
+                if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible ~= false then
+                    if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+                        if not string.find(l_Text_0, "kissed") then
+                            if game:GetService("Workspace").Enemies:FindFirstChild(Mon) then
+                                for _, v512 in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+                                    if v512:FindFirstChild("HumanoidRootPart") and v512:FindFirstChild("Humanoid") and v512.Humanoid.Health > 0 and v512.Name == Mon then
+                                        if not string.find(l_Text_0, NameMon) then
+                                            StartBring = false
+                                            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AbandonQuest")
+                                        else
+                                            repeat
+                                                task.wait()
+                                                EquipWeapon(_G.SelectWeapon)
+                                                AutoHaki()
+                                                PosMon = v512.HumanoidRootPart.CFrame
+                                                topos(v512.HumanoidRootPart.CFrame * CFrame.new(0, 30, 0))
+                                                v512.HumanoidRootPart.CanCollide = false
+                                                v512.Humanoid.WalkSpeed = 0
+                                                v512.Head.CanCollide = false
+                                                v512.HumanoidRootPart.Size = Vector3.new(70, 70, 70)
+                                                StartBring = true
+                                                MonFarm = v512.Name
+                                                game:GetService("VirtualUser"):CaptureController()
+                                                game:GetService("VirtualUser"):Button1Down(Vector2.new(1280, 672))
+                                            until not _G.AutoFarm or v512.Humanoid.Health <= 0 or not v512.Parent or game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == false
+                                        end
+                                    end
+                                end
+                            else
+                                TP1(CFrameMon)
+                                StartBring = false
+                                if game:GetService("ReplicatedStorage"):FindFirstChild(Mon) then
+                                    TP1(game:GetService("ReplicatedStorage"):FindFirstChild(Mon).HumanoidRootPart.CFrame * CFrame.new(0, 20, 0))
+                                end
+                            end
+                        else
+                            for _, v514 in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+                                if string.find(v514.Name, "kissed Warrior") then
+                                    if v514:FindFirstChild("HumanoidRootPart") and v514:FindFirstChild("Humanoid") and v514.Humanoid.Health > 0 then
+                                        if string.find(l_Text_0, NameMon) then
+                                            repeat
+                                                task.wait()
+                                                EquipWeapon(_G.SelectWeapon)
+                                                PosMon = v514.HumanoidRootPart.CFrame
+                                                topos(v514.HumanoidRootPart.CFrame * CFrame.new(0, 30, 0))
+                                                v514.HumanoidRootPart.CanCollide = false
+                                                v514.Humanoid.WalkSpeed = 0
+                                                v514.Head.CanCollide = false
+                                                v514.HumanoidRootPart.Size = Vector3.new(70, 70, 70)
+                                                StartBring = true
+                                                MonFarm = v514.Name
+                                                game:GetService("VirtualUser"):CaptureController()
+                                                game:GetService("VirtualUser"):Button1Down(Vector2.new(1280, 672))
+                                            until not _G.AutoFarm or v514.Humanoid.Health <= 0 or not v514.Parent or game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == false
+                                        else
+                                            StartBring = false
+                                            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AbandonQuest")
+                                        end
+                                    end
+                                else
+                                    TP1(CFrameMon)
+                                    StartBring = false
+                                    if game:GetService("ReplicatedStorage"):FindFirstChild(Mon) then
+                                        TP1(game:GetService("ReplicatedStorage"):FindFirstChild(Mon).HumanoidRootPart.CFrame * CFrame.new(0, 20, 0))
+                                    end
+                                end
+                            end
+                        end
+                    end
+                else
+                    StartBring = false
+                    if BypassTP then
+                        if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - CFrameQuest.Position).Magnitude <= 1500 then
+                            TP1(CFrameQuest)
+                        else
+                            TP1(CFrameQuest)
+                        end
+                    else
+                        TP1(CFrameQuest)
+                    end
+                    if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - CFrameQuest.Position).Magnitude <= 20 then
+                        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NameQuest, LevelQuest)
+                    end
+                end
+            end)
+        end
+    end
+end)
+v485:AddToggle({
+  
+  AddButton(Tab1o, {
      Name = "Meoww hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/sle36857-ux/Hehe/refs/heads/main/SourceBF.lua.txt"))() 
