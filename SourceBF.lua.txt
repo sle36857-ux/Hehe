@@ -3665,7 +3665,7 @@ function CheckItemBPCRBPCR(v463)
     end
 end
 local v466 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NejiDepzai/UIRedzhub/refs/heads/main/UIRedz.lua"))():MakeWindow({
-    Title = "Meoww hub",
+    Title = "Redz hub",
     SubTitle = "Blox Fruit-Premium",
     SaveFolder = "BloxFruits.lua"
 })
@@ -3675,7 +3675,7 @@ l_ScreenGui_0.Parent = game.CoreGui
 local l_ImageButton_0 = Instance.new("ImageButton")
 l_ImageButton_0.Size = UDim2.new(0, 50, 0, 50)
 l_ImageButton_0.Position = UDim2.new(0.15, 0, 0.15, 0)
-l_ImageButton_0.Image = "rbxassetid://117130297183348"
+l_ImageButton_0.Image = "rbxassetid://72637119862271"
 l_ImageButton_0.BackgroundTransparency = 1
 l_ImageButton_0.Parent = l_ScreenGui_0
 local l_UICorner_0 = Instance.new("UICorner")
@@ -3757,7 +3757,7 @@ local v496 = v466:MakeTab({"Khác", "settings"})
 v484:AddDiscordInvite({
     Name = "TikTok - Sang le Roblox",
     Description = "Link TikTok",
-    Logo = "rbxassetid://117130297183348",
+    Logo = "rbxassetid://72637119862271",
     Invite = "@nhat_o3"
     
 })
